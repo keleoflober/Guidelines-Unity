@@ -8,45 +8,45 @@ It makes stylistic choices that comes from other languages such as Java.
 
 | Section                                                                       | Anchor                                                                                             |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **General guidelines**                                                        | [General guidelines ](#General-Guidelines)                                                         |
-| **C# coding guidelines**                                                      | [C# coding guidelines  ](#C#-coding-guidelines)                                                    |
-| **Plastic SCM Guidelines**                                                    | [Plastic SCM Guidelines  ](#Plastic-SCM-Guidelines)                                                |
+| **General guidelines**                                                        | [General guidelines ](#general-guidelines)                                                         |
+| **C# coding guidelines**                                                      | [C# coding guidelines  ](#coding-guidelines)                                                    |
+| **Plastic SCM Guidelines**                                                    | [Plastic SCM Guidelines  ](#plastic-scm-guidelines)                                                |
 |                                                                               |                                                                                                    |
 | **General guidelines**                                                        |                                                                                                    |
-| - Naming rules                                                                | [General Naming Rules](#Naming-rules)                                                              |
-| - Code                                                                        | [Code](#Code)                                                                                      |
-| - Files                                                                       | [Files](#Files )                                                                                   |
-| - Organization                                                                | [Organization  ](#Organization )                                                                   |
-| - Whitespace rules                                                            | [Whitespace rules   ](#Whitespace-rules )                                                          |
-| - Example                                                                     | [Example   ](#Example )                                                                            |
+| - Naming rules                                                                | [General Naming Rules](#naming-rules)                                                              |
+| - Code                                                                        | [Code](#code)                                                                                      |
+| - Files                                                                       | [Files](#files )                                                                                   |
+| - Organization                                                                | [Organization  ](#organization )                                                                   |
+| - Whitespace rules                                                            | [Whitespace rules   ](#whitespace-rules )                                                          |
+| - Example                                                                     | [Example   ](#example )                                                                            |
 | **Plastic SCM Guidelines**                                                    |                                                                                                    |
-| - Branches Structure and Hierarchy                                            | [Branches Structure and Hierarchy](#Branches-Structure-and-Hierarchy  )                            |
-| - Branch Naming and Formating                                                 | [Branch Naming and Formating](#Branch-Naming-and-Formating  )                                      |
-| - General Naming Rules and Examples                                           | [General Naming Rules and Examples  ](#General-Naming-Rules-and-Examples )                         |
+| - Branches Structure and Hierarchy                                            | [Branches Structure and Hierarchy](#branches-structure-and-hierarchy  )                            |
+| - Branch Naming and Formating                                                 | [Branch Naming and Formating](#branch-naming-and-formating  )                                      |
+| - General Naming Rules and Examples                                           | [General Naming Rules and Examples  ](#general-naming-rules-and-examples )                         |
 | **C# coding guidelines**                                                      |                                                                                                    |
-| - Constants                                                                   | [Constants  ](#Constants)                                                                          |
-| - IEnumerable vs IList vs IReadOnlyList                                       | [IEnumerable vs IList vs IReadOnlyList](#IEnumerable-vs-IList-vs-IReadOnlyList)                    |
-| - Generators vs containers                                                    | [Generators vs containers  ](#Generators-vs-containers)                                            |
-| - Property styles                                                             | [Property styles   ](#Property-styles)                                                             |
-| - Expression body syntax                                                      | [Expression body syntax   ](#Expression-body-syntax)                                               |
-| - Structs and classes                                                         | [ref and out](#Structs-and-classes   )                                                             |
-| - Lambdas vs named methods                                                    | [Lambdas vs named methods ](#Lambdas-vs-named-methods)                                             |
-| - Field initializers                                                          | [Field initializers   ](#Field-initializers )                                                      |
-| - Extension methods                                                           | [Extension methods](#Extension-methods )                                                           |
+| - Constants                                                                   | [Constants  ](#constants)                                                                          |
+| - IEnumerable vs IList vs IReadOnlyList                                       | [IEnumerable vs IList vs IReadOnlyList](#ienumerable-vs-ilist-vs-ireadonlylist)                    |
+| - Generators vs containers                                                    | [Generators vs containers  ](#generators-vs-containers)                                            |
+| - Property styles                                                             | [Property styles   ](#property-styles)                                                             |
+| - Expression body syntax                                                      | [Expression body syntax   ](#expression-body-syntax)                                               |
+| - Structs and classes                                                         | [ref and out](#structs-and-classes   )                                                             |
+| - Lambdas vs named methods                                                    | [Lambdas vs named methods ](#lambdas-vs-named-methods)                                             |
+| - Field initializers                                                          | [Field initializers   ](#field-initializers )                                                      |
+| - Extension methods                                                           | [Extension methods](#extension-methods )                                                           |
 | - ref and out                                                                 | [ref and out ](#ref-and-out  )                                                                     |
-| - LINQ                                                                        | [LINQ ](#LINQ)                                                                                     |
-| - Array vs List                                                               | [Array vs List  ](#Array-vs-List   )                                                               |
-| - Use of tuple as a return type                                               | [Use of tuple as a return type  ](#Use-of-tuple-as-a-return-type  )                                |
-| - String interpolation vs `String.Format()` vs `String.Concat` vs `operator+` | [String interpolation vs `String.Format()` vs `String.Concat` vs `operator+`](#String-interpolation-vs-`String.Format()`-vs-`String.Concat`-vs-`operator+` ) |
+| - LINQ                                                                        | [LINQ ](#linq)                                                                                     |
+| - Array vs List                                                               | [Array vs List  ](#array-vs-list   )                                                               |
+| - Use of tuple as a return type                                               | [Use of tuple as a return type  ](#use-of-tuple-as-a-return-type  )                                |
+| - String interpolation vs `String.Format()` vs `String.Concat` vs `operator+` | [Handling Strings](#handling-strings) |
 | - Implementing `using`                                                        | [Implementing `using` ](#implementing-using )                                                      |
-| - Object Initializer syntax                                                   | [Object Initializer syntax ](#Object-Initializer-syntax )                                          |
-| - Namespace naming                                                            | [Namespace naming ](#Namespace-naming  )                                                           |
-| - Default values and null returns for structs                                 | [Default values and null returns for structs](#Default-values-and-null-returns-for-structs  )      |
-| - Removing from containers while iterating                                    | [Removing from containers while iterating  ](#Removing-from-containers-while-iterating  )          |
-| - Calling delegates                                                           | [Calling delegates](#Calling-delegates  )                                                          |
-| - The `var` keyword                                                           | [The `var` keyword ](#The-var-keyword  )                                                           |
-| - Attributes                                                                  | [Attributes](#Attributes )                                                                         |
-| - Argument Naming                                                             | [Argument Naming](#Argument-Naming  )                                                              |
+| - Object Initializer syntax                                                   | [Object Initializer syntax ](#object-initializer-syntax )                                          |
+| - Namespace naming                                                            | [Namespace naming ](#namespace-naming  )                                                           |
+| - Default values and null returns for structs                                 | [Default values and null returns for structs](#default-values-and-null-returns-for-structs  )      |
+| - Removing from containers while iterating                                    | [Removing from containers while iterating  ](#removing-from-containers-while-iterating  )          |
+| - Calling delegates                                                           | [Calling delegates](#calling-delegates  )                                                          |
+| - The `var` keyword                                                           | [The `var` keyword ](#the-var-keyword  )                                                           |
+| - Attributes                                                                  | [Attributes](#attributes )                                                                         |
+| - Argument Naming                                                             | [Argument Naming](#argument-naming  )                                                              |
 
 
 
@@ -302,7 +302,7 @@ to quickly identify the type of branch, what could include, how to manage it
 
 
 
-## C# coding guidelines
+## Coding guidelines
 
 ### Constants
 
@@ -442,6 +442,7 @@ int SomeProperty => someProperty
 *   In general, prefer a named class type over `Tuple<>`, particularly when
     returning complex types.
 
+### Handling strings 
 ### String interpolation vs `String.Format()` vs `String.Concat` vs `operator+`
 
 *   In general, use whatever is easiest to read, particularly for logging and
@@ -451,7 +452,7 @@ int SomeProperty => someProperty
 *   If performance is a concern, `StringBuilder` will be faster for multiple
     string concatenations.
 
-### implementing using
+### implementing using 
 
 *   Generally, don’t alias long typenames with `using`. Often this is a sign
     that a `Tuple<>` needs to be turned into a class.
