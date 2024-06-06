@@ -1,6 +1,6 @@
-# C# & Plastic SCM for Unity development - Namelezz
+# C# & Git for Unity development - Namelezz
 
-This style guide is a variation from [Google's C# styleguide](https://google.github.io/styleguide/csharp-style.html) for C# development and Plastic SCM at Namelezz Games.<br>
+This style guide is a variation from [Google's C# styleguide](https://google.github.io/styleguide/csharp-style.html) for C# development and git at Namelezz Games.<br>
 It makes stylistic choices that comes from other languages such as Java.
 
 ## Page Content
@@ -10,7 +10,7 @@ It makes stylistic choices that comes from other languages such as Java.
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **General guidelines**                                                        | [General guidelines ](#general-guidelines)                                                         |
 | **C# coding guidelines**                                                      | [C# coding guidelines  ](#coding-guidelines)                                                    |
-| **Plastic SCM Guidelines**                                                    | [Plastic SCM Guidelines  ](#plastic-scm-guidelines)                                                |
+| **Git Guidelines**                                                    | [Git Guidelines  ](#git-guidelines)                                                |
 |                                                                               |                                                                                                    |
 | **General guidelines**                                                        |                                                                                                    |
 | - Naming rules                                                                | [General Naming Rules](#naming-rules)                                                              |
@@ -19,7 +19,7 @@ It makes stylistic choices that comes from other languages such as Java.
 | - Organization                                                                | [Organization  ](#organization )                                                                   |
 | - Whitespace rules                                                            | [Whitespace rules   ](#whitespace-rules )                                                          |
 | - Example                                                                     | [Example   ](#example )                                                                            |
-| **Plastic SCM Guidelines**                                                    |                                                                                                    |
+| **Git Guidelines**                                                    |                                                                                                    |
 | - Branches Structure and Hierarchy                                            | [Branches Structure and Hierarchy](#branches-structure-and-hierarchy  )                            |
 | - Branch Naming and Formating                                                 | [Branch Naming and Formating](#branch-naming-and-formating  )                                      |
 | - General Naming Rules and Examples                                           | [General Naming Rules and Examples  ](#general-naming-rules-and-examples )                         |
@@ -246,7 +246,7 @@ namespace MyNamespace {                             // Namespaces are PascalCase
   }
 }
 ```
-## Plastic SCM Guidelines
+## Git Guidelines
 
 This guide intention is to keep git naming convention as consistent as possible
 to quickly identify the type of branch, what could include, how to manage it
