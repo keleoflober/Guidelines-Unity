@@ -18,7 +18,7 @@ It makes stylistic choices that comes from other languages such as Java.
 | - Files                                                                       | [Files](#files )                                                                                   |
 | - Organization                                                                | [Organization  ](#organization )                                                                   |
 | - Whitespace rules                                                            | [Whitespace rules   ](#whitespace-rules )                                                          |
-| - Example                                                                     | [Example   ](#example )                                                                            |
+| - C# Class Example                                                             | [Example   ](#example )                                                                            |
 | **Git Guidelines**                                                    |                                                                                                    |
 | - Branches Structure and Hierarchy                                            | [Branches Structure and Hierarchy](#branches-structure-and-hierarchy  )                            |
 | - Branch Naming and Formating                                                 | [Branch Naming and Formating](#branch-naming-and-formating  )                                      |
@@ -138,6 +138,15 @@ Developed from Google Java style.
 ### Example
 
 ```c#
+
+/*Author: Author's Name 
+  Description: this is an example of how the guidelines apply
+  
+  versions: 1.0 TaskID + DD/MM/YYYY + changes applied
+            1.1 TaskID + DD/MM/YYYY + changes to struct
+            2.0 TaskID + DD/MM/YYYY + extended class to support a new feature
+*/
+
 using System;                                       // `using` goes at the top, outside the
                                                     // namespace.
 
